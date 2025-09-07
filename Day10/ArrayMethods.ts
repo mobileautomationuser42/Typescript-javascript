@@ -102,5 +102,8 @@ console.log("Converted Array To String: ", numbersString);  // 2,3,4,5,6,7
 let myarray: string[] = ['w', 'e', 'l', 'c', 'o', 'm', 'e'];
 console.log("Original myarray: ", myarray);                // [ 'w', 'e', 'l', 'c', 'o', 'm', 'e' ]
 
+// let str: string = myarray.toString();
+// console.log("converted string: ", str);                    // w,e,l,c,o,m,e
+
 let str: string = myarray.toString();
 console.log("converted string: ", str);                    // w,e,l,c,o,m,e
