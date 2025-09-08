@@ -1,3 +1,5 @@
+// ======== important this is use in Automation ============
+
 let numbers: number[] = [1, 2, 3, 4, 5];
 let fruites: string[] = ["apple", "banana", "orange", "mango"];
 
@@ -107,3 +109,4 @@ console.log("Original myarray: ", myarray);                // [ 'w', 'e', 'l', '
 
 let str: string = myarray.toString();
 console.log("converted string: ", str);                    // w,e,l,c,o,m,e
+export{}
