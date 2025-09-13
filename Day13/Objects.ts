@@ -122,3 +122,36 @@ let book3: Product = {
 console.log(book1.getInfo()); // Learn java costs 300
 console.log(book2.getInfo()); // Learn Python costs 500
 console.log(book3.getInfo()); // Learn JS costs 600
+// ==================================================================
+
+// 4. Using the classes (JS ES16/TS)
+
+class Person {
+    ssn: string;
+    firstName: string;
+    lastName: string;
+
+    constructor(ssn: string, firstName: string, lastName: string) {
+        this.ssn = ssn;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    getFullName(): string {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    getDetails(): string {
+        return `SSN: ${this.ssn}, Name: ${this.getFullName()}`;
+    }
+}
+
+//object creation
+let person1 = new Person('1121233333', 'John', 'Kenedy');
+console.log(person1.getDetails());
+
+let person2 = new Person('22222222', 'David', 'D');
+console.log(person2.getDetails());
+
+let person3 = new Person('5555555', 'Scott', 'S');
+console.log(person3.getDetails());
