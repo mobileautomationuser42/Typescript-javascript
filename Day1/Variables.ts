@@ -138,11 +138,11 @@ console.log(age);
 */
 
 //Example 2: let allows re-assignment
-/*
+
 let age = 25;
 age = 30; // allowed
 console.log(age);
-*/
+
 
 //Example 3: const not allows re-assignment
 /*
@@ -157,12 +157,9 @@ console.log(a); // undefined
 var a = 10;
 console.log(a);
 */
-/*
-console.log(a); // Not initialized
-let a = 10;
-console.log(a);
-*/
 
-console.log(a); // Not initialized
-const a = 10;
-console.log(a);
+// console.log(a); // Not initialized
+// let a = 10;
+// console.log(a);
+
+

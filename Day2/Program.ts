@@ -6,7 +6,7 @@ for (let i = org.length - 1; i >= 0; i--) {
 }
 
 console.log(org);
-console.log(rev);
+console.log(rev); 
 
 if (org === rev) {
     console.log("Given string is palindrome");
